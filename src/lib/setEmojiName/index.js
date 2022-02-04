@@ -1,7 +1,7 @@
 import { PROPERTY_DATA_NAME } from '../constants';
 
 const setEmojiName = (emojiName = '', emojiListRef) => {
-  let className = '.content-wrapper';
+  let className = '.emoji-picker-content-wrapper';
   const node =
     emojiListRef && emojiListRef.current
       ? emojiListRef.current.closest(`${className}`)

@@ -69,7 +69,7 @@ const EmojiPicker = ({
         <CategoriesNav emojiListRef={emojiListRef} />
         <Search searchPlaceholder={searchPlaceholder} />
 
-        <div className="content-wrapper">
+        <div className="emoji-picker-content-wrapper">
           <VariationsMenu />
           <section className="emoji-scroll-wrapper" ref={emojiListRef}>
             <RecentlyUsed emojiListRef={emojiListRef} />
